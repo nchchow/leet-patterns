@@ -1,0 +1,7 @@
+# Singleton
+
+### Purpose
+
+### How
+
+### Analogy
