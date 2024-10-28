@@ -1,8 +1,9 @@
 require 'rspec'
 
 class Singleton
+  # Your code here
   def self.instance
-
+    # and here
   end
 
   def initialize
