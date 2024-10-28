@@ -36,6 +36,9 @@ class ConcreteObserverB < Observer
   end
 end
 
+# Don't modify the tests below. Your implementation should pass these tests.
+# Run the tests by running `rspec behavioral_patterns/observer/index.rb`
+
 RSpec.describe Subject do
   let(:subject) { Subject.new }
   let(:observer_a) { ConcreteObserverA.new }

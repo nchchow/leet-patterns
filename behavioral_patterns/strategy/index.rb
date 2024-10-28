@@ -17,7 +17,7 @@ class Context
 end
 
 # Don't modify the tests below. Your implementation should pass these tests.
-# Run the tests by running `rspec creational_patterns/strategy/index.rb`
+# Run the tests by running `rspec behavioral_patterns/strategy/index.rb`
 
 RSpec.describe Context do
   describe '#execute_strategy' do
