@@ -17,7 +17,7 @@ RSpec.describe AudioPlayerAdapter do
     expect(adapter.play_audio('song.mp3')).to eq("Playing audio file: song.mp3")
   end
 
-  it 'indicates video cannot be played with the adapter' do
+  it 'plays video using the adapter' do
     expect(adapter.play_video('video.mp4')).to eq("Playing video file: video.mp4")
   end
 end
