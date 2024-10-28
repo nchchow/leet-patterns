@@ -1,4 +1,4 @@
-# Singleton
+# Pattern
 
 ### Purpose
 
