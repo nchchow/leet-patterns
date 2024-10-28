@@ -1,0 +1,7 @@
+# Pattern
+
+### Purpose
+
+### How
+
+### Analogy
