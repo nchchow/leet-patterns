@@ -24,6 +24,7 @@ class Singleton
 end
 
 # Don't modify the tests below. Your implementation should pass these tests
+# Run the tests by running `rspec singleton.rb`
 
 RSpec.describe Singleton do
   describe ".instance" do
