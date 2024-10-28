@@ -25,7 +25,7 @@ class VehicleFactory
 end
 
 # Don't modify the tests below. Your implementation should pass these tests
-# You can run the tests by running the command `rspec factory.rb`
+# You can run the tests by running the command `rspec creational_patterns/factory/index.rb`
 
 RSpec.describe VehicleFactory do
   describe '.create_vehicle' do
