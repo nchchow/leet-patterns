@@ -1,0 +1,7 @@
+# Factory
+
+### Purpose
+
+### How
+
+### Analogy
