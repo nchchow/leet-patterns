@@ -1,21 +1,8 @@
 require 'rspec'
+require_relative 'models/hamburger'
 
 class HamburgerBuilder
   # Your code here
-end
-
-class Hamburger
-  def initialize
-    @ingredients = []
-  end
-
-  def add(ingredient)
-    @ingredients << ingredient
-  end
-
-  def show_ingredients
-    @ingredients.join(", ")
-  end
 end
 
 # Don't modify the tests below. Your implementation should pass these tests.

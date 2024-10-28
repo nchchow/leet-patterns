@@ -1,22 +1,6 @@
 require 'rspec'
-
-class Vehicle
-  def describe
-    raise NotImplementedError, "This method should be overridden in subclasses"
-  end
-end
-
-class Car < Vehicle
-  def describe
-    "This is a car."
-  end
-end
-
-class Bike < Vehicle
-  def describe
-    "This is a bike."
-  end
-end
+require_relative 'models/car'
+require_relative 'models/bike'
 
 class VehicleFactory
   def self.create_vehicle(vehicle_type)

@@ -1,4 +1,6 @@
 require 'rspec'
+require_relative 'models/concrete_observer_a'
+require_relative 'models/concrete_observer_b'
 
 class Subject
   def initialize
@@ -15,24 +17,6 @@ class Subject
 
   def notify
     @observers.each { |observer| observer.update(data) }
-  end
-end
-
-class Observer
-  def update(data)
-    raise NotImplementedError, "This method should be overridden in subclasses"
-  end
-end
-
-class ConcreteObserverA < Observer
-  def update(data)
-    puts "ConcreteObserverA received data: #{data}"
-  end
-end
-
-class ConcreteObserverB < Observer
-  def update(data)
-    puts "ConcreteObserverB received data: #{data}"
   end
 end
 
