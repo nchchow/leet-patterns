@@ -1,8 +1,8 @@
-# Factory
+# Factory Method
 
 ### Purpose
 
-The Factory Design Pattern provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. This pattern promotes loose coupling by eliminating the need to specify the exact class of the object that will be created, making the code more flexible and easier to manage.
+The Factory Method Pattern provides an interface for creating objects in a superclass but allows subclasses to alter the type of objects that will be created. This pattern promotes loose coupling by eliminating the need to specify the exact class of the object that will be created, making the code more flexible and easier to manage.
 
 ### How
 
